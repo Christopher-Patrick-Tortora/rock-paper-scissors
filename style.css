@@ -1,7 +1,14 @@
 #header{
     text-align: center;
-    margin-top: 200px;
+    
     font-size: 50px;
+}
+body{
+    margin: 200px auto;
+   height: 550px;
+    border: solid black;
+    width: max-content;
+    
 }
 
 #buttons{
