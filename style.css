@@ -1,5 +1,7 @@
-h1{
+#header{
     text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
 }
 
 #buttons{
@@ -14,7 +16,18 @@ h1{
     margin-left: 10px;
 }
 
-#game{
+#gameInfo{
     text-align: center;
     margin-top: 150px;
+}
+
+#scoreBoard{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    font-weight: bold;
+}
+
+.score{
+    margin-left: 10px;
 }
