@@ -105,7 +105,7 @@ function gameOver() {
         ("You Win the Game!");
         
     }
-    else if(playerWins = computerWins || ties == 5){
+    else if(playerWins == computerWins || ties == 5){
         matchResult.textContent = 
         ("You Tied the Game!");
     }
